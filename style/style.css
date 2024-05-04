@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Outfit", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: #d5e1ef;
+}
+
+main {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 152px auto;
+}
+
+.QR-card {
+  background-color: #ffffff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.QR-card img {
+  width: 288px;
+  padding: 16px;
+  margin: 0 auto;
+  border-radius: 8%;
+}
+
+.QR-card .text {
+  width: 288px;
+  text-align: center;
+  padding: 0 16px;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.QR-card .text .title {
+  color: #1f314f;
+  font-size: 22px;
+  padding-bottom: 16px;
+  font-weight: 700;
+}
+
+.QR-card .text .description {
+  color: #7d889e;
+  font-size: 15px;
+}
